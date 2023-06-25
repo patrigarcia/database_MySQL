@@ -32,22 +32,22 @@ A su vez tendrá los siguientes campos:
 
 **ACTUALIZAR DATOS** 📝
 
-⦁ Cambiar el nombre de un empleado. Para ello, genere una consulta que afecte solo a un determinado empleado en función de su nombre, apellido y fecha de nacimiento.
+-   Cambiar el nombre de un empleado. Para ello, genere una consulta que afecte solo a un determinado empleado en función de su nombre, apellido y fecha de nacimiento.
 
 **OBTENER DATOS** 📥
 
-⦁ Seleccione todos los empleados con un salario superior a 20.000
-⦁ Seleccione todos los empleados con un salario inferior a 10.000
-⦁ Seleccione todos los empleados que tengan un salario entre 14.000 y 50.000
-⦁ Seleccione el número total de empleados
-⦁ Selecciona los títulos del año 2019
-⦁ Seleccione solo el nombre de los empleados y que se vean en mayúsculas
-⦁ Seleccionar el nombre de los empleados sin que se repita ninguno
+-   Seleccione todos los empleados con un salario superior a 20.000
+-   Seleccione todos los empleados con un salario inferior a 10.000
+-   Seleccione todos los empleados que tengan un salario entre 14.000 y 50.000
+-   Seleccione el número total de empleados
+-   Selecciona los títulos del año 2019
+-   Seleccione solo el nombre de los empleados y que se vean en mayúsculas
+-   Seleccionar el nombre de los empleados sin que se repita ninguno
 
 **BORRAR DATOS** 🗑️
 
-⦁ Elimina el empleado con id = 5
-⦁ Eliminar a todos los empleados con un salario superior a 20.000
+-   Elimina el empleado con id = 5
+-   Eliminar a todos los empleados con un salario superior a 20.000
 
 ```SQL
 CREATE DATABASE my_company_database;
