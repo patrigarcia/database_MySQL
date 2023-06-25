@@ -1,7 +1,53 @@
 ![foto](Rdm.png)
-# Script de base de datos para MySQL 🗄️
 
+# Script de base de datos para MySQL 🗂️
 
+El objetivo de este proyecto es aprender a trabajar en una base de datos y hacer consultas SQL.
+
+**CREAR UNA BASE DE DATOS** 📂
+
+Crea una base de datos que se llame **my_company_database**.
+La base de datos deberá contener la siguiente tabla: employees.
+A su vez tendrá los siguientes campos:
+
+-   id
+-   birth_date
+-   first_name
+-   last_name
+-   gender
+
+**AÑADIR NUEVAS COLUMNAS A LA TABLA:** 📊
+
+-   Columna "salary"
+-   Columna "title"
+-   Columna "title_date"(fecha)
+
+**INSERTAR DATOS** 📇
+
+-   Inserte al menos 15 nuevos empleados:
+-   Al menos 3 empleados deben tener el mismo nombre.
+-   Los salarios de los empleados deben oscilar en un rango de 5000 y 50.000 y deben variar entre diferentes géneros.
+-   Todos los empleados tienen un título.
+-   Al menos 5 títulos son de 2020.
+
+**ACTUALIZAR DATOS** 📝
+
+⦁ Cambiar el nombre de un empleado. Para ello, genere una consulta que afecte solo a un determinado empleado en función de su nombre, apellido y fecha de nacimiento.
+
+**OBTENER DATOS** 📥
+
+⦁ Seleccione todos los empleados con un salario superior a 20.000
+⦁ Seleccione todos los empleados con un salario inferior a 10.000
+⦁ Seleccione todos los empleados que tengan un salario entre 14.000 y 50.000
+⦁ Seleccione el número total de empleados
+⦁ Selecciona los títulos del año 2019
+⦁ Seleccione solo el nombre de los empleados y que se vean en mayúsculas
+⦁ Seleccionar el nombre de los empleados sin que se repita ninguno
+
+**BORRAR DATOS** 🗑️
+
+⦁ Elimina el empleado con id = 5
+⦁ Eliminar a todos los empleados con un salario superior a 20.000
 
 ```SQL
 CREATE DATABASE my_company_database;
