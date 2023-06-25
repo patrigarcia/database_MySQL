@@ -1,6 +1,7 @@
-# Script de base de datos para MySQL
+![foto](Rdm.png)
+# Script de base de datos para MySQL 🗄️
 
-Este es
+
 
 ```SQL
 CREATE DATABASE my_company_database;
